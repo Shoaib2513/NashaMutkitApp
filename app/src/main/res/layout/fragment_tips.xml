@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tipsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".Tips">
+
+    <TextView
+        android:id="@+id/tipsHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingEnd="18dp"
+        android:paddingStart="18dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="2dp"
+        android:text="Recovery &amp; Wellness Tips"
+        android:textSize="22sp"
+        android:background="@color/appColor"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:elevation="4dp"
+    />
+
+    <ListView
+        android:id="@+id/tipsListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F4F8F7"
+        android:paddingTop="8dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:divider="@android:color/transparent"
+        android:clipToPadding="false"
+        android:paddingBottom="4dp"
+        android:scrollbars="none" />
+
+</LinearLayout>
